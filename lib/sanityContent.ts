@@ -149,7 +149,7 @@ export async function getSnippetFromSlug(slug: string) {
 }
 
 export async function getStaticPageFromSlug(slug: string) {
-  const query = groq`*[_type == "static_page" && slug.current == "${slug}"][0] {
+  const query = `*[_type == "static_page" && slug.current == "${slug}"][0] {
     _id,
     title,
     slug,

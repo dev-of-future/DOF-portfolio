@@ -1,7 +1,6 @@
 import Code from "./Code";
 import CodeSandbox from "./CodeSandbox";
 import CodeTitle from "./CodeTitle";
-import Codepen from "./Codepen";
 import Danger from "./Danger";
 import EmbedBlog from "./EmbedBlog";
 import Figcaption from "./Figcaption";
@@ -15,7 +14,6 @@ import Warning from "./Warning";
 import YouTube from "./YouTube";
 
 const MDXComponents = {
-  Codepen,
   Figcaption,
   Warning,
   Danger,

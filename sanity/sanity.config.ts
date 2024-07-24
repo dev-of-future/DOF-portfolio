@@ -7,10 +7,10 @@ import {visionTool} from '@sanity/vision'
 
 export default defineConfig({
   name: 'default',
-  title: 'j471n-blog',
+  title: 'dev-of-future-sanity',
 
-  projectId: '5ec749u0',
-  dataset: 'production',
+  projectId: 'ik0jnmlj',
+  dataset: 'portfolio-db',
 
   plugins: [deskTool(), visionTool()],
 

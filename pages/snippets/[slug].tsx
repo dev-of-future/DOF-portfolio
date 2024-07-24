@@ -22,7 +22,7 @@ export default function SnippetPage({
     <>
       <Metadata
         title={snippet.title}
-        suffix="Jatin Sharma"
+        suffix="Dalton Kimmerly"
         description={snippet.excerpt}
         previewImage={pageMeta.snippets.image}
         keywords={pageMeta.snippets.keywords}

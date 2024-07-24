@@ -41,7 +41,6 @@ export default function StaticPage({
               title: page.title,
               date: page.publishedAt,
               keywords: page.keywords,
-              image: page.mainImage.asset.url,
             }}
             components={MDXComponents}
           />

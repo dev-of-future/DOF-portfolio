@@ -80,16 +80,8 @@
       "destination": "/sitemap.xml"
     },
     {
-      "source": "/newsletter",
-      "destination": "https://j471n.substack.com/"
-    },
-    {
       "source": "/cv",
-      "destination": "https://read.cv/j471n"
-    },
-    {
-      "source": "/social",
-      "destination": "https://linktr.ee/j471n"
+      "destination": "https://read.cv/dof"
     }
   ]
 }

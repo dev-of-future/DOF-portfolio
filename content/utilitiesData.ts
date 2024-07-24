@@ -32,7 +32,7 @@ const utilities: Utilities = {
   title: "Utilities",
   description:
     "In case you are wondering What tech I use, Here's the list of what tech I'm currently using for coding on the daily basis. This list is always changing.",
-  lastUpdate: "May 21, 2023",
+  lastUpdate: "May 21, 2024",
   data: [
     {
       title: "System",

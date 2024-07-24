@@ -1,13 +1,10 @@
 import "react-toastify/dist/ReactToastify.css";
 
 import {
-  FacebookShareButton,
   LinkedinShareButton,
-  TwitterShareButton,
   WhatsappShareButton,
 } from "react-share";
 import { FiCopy, FiLinkedin } from "react-icons/fi";
-import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 
 import { BsThreeDots } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
@@ -75,16 +72,6 @@ export default function ShareOnSocialMedia({
   return (
     <>
       <div className={`${className} transform sm:scale-150 my-5`}>
-        <FacebookShareButton quote={title} url={url}>
-          <div className="p-2 text-white bg-gray-700 rounded-full">
-            <GrFacebookOption className="w-4 h-4" />
-          </div>
-        </FacebookShareButton>
-        <TwitterShareButton title={title} url={url} related={["@j471n_"]}>
-          <div className="p-2 text-white bg-gray-700 rounded-full">
-            <GrTwitter className="w-4 h-4" />
-          </div>
-        </TwitterShareButton>
         <LinkedinShareButton
           title={title}
           summary={summary}

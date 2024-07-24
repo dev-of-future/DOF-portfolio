@@ -31,8 +31,7 @@ function UrlMetaInfo({ url }: UrlMetaInfoProps) {
 
         const metaInfo: MetaData = {
           title: (htmlDoc.querySelector("title")?.textContent || "")
-            .replaceAll(" - Jatin Sharma", "")
-            .replaceAll(" - DEV Community", ""),
+            .replaceAll(" - Dalton Kimmerly", ""),
           description: (
             Array.from(metaTags)
               .find((tag) => tag.getAttribute("name") === "description")

@@ -34,6 +34,7 @@ export async function getCertificates() {
     .eq("pinned", "true")
     .order("created_at", { ascending: false });
 
+
   return {
     certificates,
     error: error !== null,

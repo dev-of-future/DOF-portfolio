@@ -23,7 +23,7 @@ export default function EmbedBlog({
           width={100}
           height={55}
           placeholder="blur"
-          blurDataURL={img}
+          // blurDataURL={img}
           alt="blog image"
           style={{
             maxWidth: "100%",
