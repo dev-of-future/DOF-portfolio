@@ -3,12 +3,10 @@
 import {
   FadeContainer,
   headingFromLeft,
-  opacityVariant,
-  popUp,
+  opacityVariant
 } from "@content/FramerMotionVariants";
 
 import AnimatedHeading from "@components/FramerMotion/AnimatedHeading";
-import { BlogPost } from "@lib/interface/sanity";
 import { FiDownload } from "react-icons/fi";
 import Link from "next/link";
 import Metadata from "@components/MetaData";
@@ -19,7 +17,7 @@ import { getAllPostsMeta } from "@lib/sanityContent";
 import { motion } from "framer-motion";
 import pageMeta from "@content/meta";
 
-export default function Home({ blogs }: { blogs: BlogPost[] }) {
+export default function Home() {
   return (
     <>
       <Metadata
