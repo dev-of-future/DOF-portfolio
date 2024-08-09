@@ -48,7 +48,7 @@ export default function Home() {
                   variants={opacityVariant}
                   className="font-medium text-xs md:text-sm lg:text-lg text-[#383838] dark:text-gray-200"
                 >
-                  Senior Software Engineer | Web Scraping Expert
+                  Senior Full Stack Engineer | Web Scraping Expert
                 </motion.p>
               </div>
 

@@ -4,7 +4,7 @@ const pageMeta: PageMeta = {
   home: {
     title: "",
     description:
-      "Hey, I am Dalton Kimmerly, a senior software Engineer",
+      "Hey, I am Dalton Kimmerly, a senior Full Stack Engineer",
     image: "",
     keywords: "portfolio",
   },
@@ -40,7 +40,7 @@ const pageMeta: PageMeta = {
   about: {
     title: "About",
     description:
-      "Hey, I am Dalton Kimmerly. As a senior software Engineer, I've been working for over 7 years. I've been working on various projects and have a lot of experience in the field of software development.",
+      "Hey, I am Dalton Kimmerly. As a Senior Full Stack Engineer, I've been working for over 7 years. I've been working on various projects and have a lot of experience in the field of software development.",
     image: "",
     keywords: "about, about me, ",
   },
